@@ -28,7 +28,7 @@ public class Importer {
 
         this.client = new RestHighLevelClient(
                 RestClient.builder(
-                        new HttpHost("localhost", 9200, "http")));;
+                        new HttpHost("localhost", 9200, "http")));
     }
 
     public void run() {
